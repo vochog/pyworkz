@@ -16,8 +16,8 @@ app = Flask(__name__)
 
 # Google Sheets Setup
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-CREDS_FILE = 'my-project-tiktok-458303-4f94d21e2783.json'  # Replace with your credentials file
-SPREADSHEET_ID = '1mttAFGAjjVb9anJ-b7g6W5DUwgfUksMhu5VsEEW2xO4'  # Replace with your spreadsheet ID
+CREDS_FILE = 'credentials.json'  # Replace with your credentials file
+SPREADSHEET_ID = 'your-spreadsheet-id'  # Replace with your spreadsheet ID
 
 # Initialize Google Sheets
 creds = ServiceAccountCredentials.from_json_keyfile_name(CREDS_FILE, SCOPES)
