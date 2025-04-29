@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #FE2C55;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #d62248;
+        }
+    </style>
+</head>
+<body>
+    <h1>TikTok Video Scraper</h1>
+    <p>Submit a TikTok link to scrape video data and save to our database</p>
+    
+    <form action="/" method="POST">
+        <input type="text" name="tiktok_url" placeholder="https://www.tiktok.com/@username/video/123456789" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
