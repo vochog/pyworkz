@@ -8,7 +8,7 @@ async def get_trending():
         for i, video in enumerate(trending):
             print(f"\n[{i + 1}] @{video.author.username}")
             print(f"Description: {video.description}")
-            print(f"Likes: {video.stats.digg_count}")
+            print(f"Likes: {video.stats.digg_count}") 
             print(f"Shares: {video.stats.share_count}")
             print(f"Comments: {video.stats.comment_count}")
             print(f"Video URL: https://www.tiktok.com/@{video.author.username}/video/{video.id}")
