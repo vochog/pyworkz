@@ -1,0 +1,13 @@
+temperature_control_system/
+├── sensor_reader.py
+├── decision_engine.py
+├── actuation_simulator.py
+├── mock_data/
+│   ├── temperature.csv
+│   ├── power.csv
+│   ├── occupancy.csv
+├── logs/
+│   ├── sensor_data.log
+│   ├── decisions.log
+│   ├── actions.log
+└── README.md
