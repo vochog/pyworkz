@@ -1,0 +1,28 @@
+
+2. Create mock CSV files in the `mock_data` directory with sample data:
+
+   - `temperature.csv` (format: timestamp,temperature):
+     ```
+     2023-01-01 12:00:00,22.5
+     2023-01-01 12:01:00,21.8
+     ```
+
+   - `power.csv` (format: timestamp,power_usage):
+     ```
+     2023-01-01 12:00:00,1500
+     2023-01-01 12:01:00,1450
+     ```
+
+   - `occupancy.csv` (format: timestamp,occupancy_status where 0=unoccupied, 1=occupied):
+     ```
+     2023-01-01 12:00:00,1
+     2023-01-01 12:01:00,1
+     ```
+
+## Running the System
+
+Open three separate terminal windows and run each script:
+
+1. **Sensor Reader**:
+   ```bash
+   python sensor_reader.py
