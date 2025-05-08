@@ -1,0 +1,23 @@
+How It Works:
+
+HTML: Defines the structure with a container (.unbox-container), a lid (.box-lid), a base (.box-base), and the PlayStation image (.console).
+
+CSS: Styles the elements and sets up the initial positions. The .box-lid and .box-base are positioned absolutely within the container, and the .console image is initially hidden with opacity: 0.
+
+JavaScript (GSAP): Utilizes the GSAP library with the ScrollTrigger plugin to animate the lid's movement and the console's opacity based on the scroll position.
+
+
+
+---
+
+🚀 Try It Out:
+
+To see the animation in action:
+
+1. Download the Files: Create three files (index.html, styles.css, and script.js) and paste the respective code into them.
+
+
+2. Add an Image: Place a PlayStation image named playstation.png in the same directory as your HTML file.
+
+
+3. Open in Browser: Open the index.html file in a web browser and scroll down to see the unboxing effect.
