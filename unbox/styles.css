@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.unbox-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-lid, .box-base {
+  position: absolute;
+  width: 80%;
+  transition: transform 0.5s ease-out;
+}
+
+.box-lid {
+  top: 0;
+  height: 50%;
+  background: #444;
+  z-index: 2;
+}
+
+.box-base {
+  bottom: 0;
+  height: 50%;
+  background: #222;
+}
+
+.console {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
